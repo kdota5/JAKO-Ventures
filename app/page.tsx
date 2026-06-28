@@ -38,22 +38,10 @@ export default function Home() {
             </span>
             .
           </h1>
-          <p className="animate-fade-up mx-auto mt-6 max-w-2xl text-lg text-white/60">
-            Three distinct product concepts for the team to weigh. Each one starts
-            with the same magic — a quick Claude-powered questionnaire — then takes
-            a different path to bringing people together. Try them, then let&apos;s
-            pick our bet.
-          </p>
           <div className="animate-fade-up mt-8 flex flex-wrap justify-center gap-3">
-            <Link
-              href="/ideas/irl"
-              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-white/90"
-            >
-              Start with Concept #1
-            </Link>
             <a
               href="#compare"
-              className="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/5"
+              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition hover:bg-white/90"
             >
               Compare all three
             </a>
